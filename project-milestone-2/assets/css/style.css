@@ -1,0 +1,102 @@
+/* ===== Font Families ===== */
+.special-gothic-expanded-one-regular {
+  font-family: "Special Gothic Expanded One", sans-serif;
+}
+.edu-vic-wa-nt-hand-pre-edufont {
+  font-family: "Edu VIC WA NT Hand Pre", cursive;
+}
+body {
+  font-family: 'Nunito', sans-serif;
+  background-color: #f3f0ff;
+  color: #4b5563;
+  padding-top: 80px; /* Fixed navbar offset */
+}
+
+/* ===== Typography ===== */
+h1, h2, .navbar-brand, .offcanvas-title {
+  font-family: 'Quicksand', sans-serif;
+  color: #5b21b6;
+  text-align: center;
+}
+
+/* ===== Navbar ===== */
+.navbar, .offcanvas {
+  background-color: #a1a9fe !important;
+}
+.navbar-brand {
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+/* ===== Buttons ===== */
+button.btn {
+  margin: 0.5rem;
+  border-radius: 30px;
+  padding: 0.5rem 1.2rem;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+/* Improve contrast for accessibility */
+.btn-outline-primary { color: #4b0082; border-color: #4b0082; }
+.btn-outline-primary:hover { background-color: #4b0082; color: #fff; }
+
+.btn-outline-secondary { color: #374151; border-color: #374151; }
+.btn-outline-secondary:hover { background-color: #374151; color: #fff; }
+
+.btn-outline-success { color: #b91c1c; border-color: #b91c1c; }
+.btn-outline-success:hover { background-color: #b91c1c; color: #fff; }
+
+.btn-outline-danger { color: #c2410c; border-color: #c2410c; }
+.btn-outline-danger:hover { background-color: #c2410c; color: #fff; }
+
+.btn-outline-warning { color: #92400e; border-color: #92400e; }
+.btn-outline-warning:hover { background-color: #92400e; color: #fff; }
+
+.btn-outline-info { color: #1e40af; border-color: #1e40af; }
+.btn-outline-info:hover { background-color: #1e40af; color: #fff; }
+
+.btn-outline-dark { color: #065f46; border-color: #065f46; }
+.btn-outline-dark:hover { background-color: #065f46; color: #fff; }
+
+/* ===== Footer ===== */
+footer {
+  background-color: #5860a8;
+  color: #ffffff;
+  padding-top: 1rem;
+}
+footer a {
+  color: #ffffff;
+  text-decoration: none;
+}
+footer svg {
+  margin: 0.5rem;
+  transition: transform 0.2s ease;
+}
+footer svg:hover {
+  transform: scale(1.2);
+}
+
+/* ===== Layout & Responsiveness ===== */
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 80vh;
+  padding: 2rem;
+  text-align: center;
+}
+.journal-entry {
+  max-width: 750px;
+  width: 100%;
+  min-height: 200px;
+  margin-top: 70px;
+}
+.card-body p {
+  color: #fff;
+}
+/* ===== Spinner ===== */
+.spinner-border {
+  width: 2rem;
+  height: 2rem;
+}
